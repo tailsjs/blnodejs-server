@@ -11,7 +11,7 @@ Boomlings NodeJS Server *[jsondb]*
 [Download here!](https://mega.nz/file/XvADCaiY#TzCoMOSrtvJPESIcKjOsN8QgGXsUAY6w-cX0xhr7WJo)
 ### Setup
 1. Decompile client
-2. Change redirectHost in libs/armeabi-v7a/libtailsjs.config.so
+2. Change `redirectHost` in `libs/armeabi-v7a/libtailsjs.config.so`
 3. Compile client
 
 ## iOS client
