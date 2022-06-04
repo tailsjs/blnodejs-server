@@ -8,8 +8,10 @@ module.exports = {
         if(Math.floor((Date.now() - user.daily.sinceLastDaily) / 1000) < 86400)
             canGot = 0;
         
-        if(Math.floor((Date.now() - user.daily.sinceLastDaily) / 1000) > 86400*2)
+        if(Math.floor((Date.now() - user.daily.sinceLastDaily) / 1000) > 86400*2){
             tier = 1
+            user.daily.streak = 1
+        }
         
         s.send(`${canGot}_${tier}`)
         
